@@ -4,6 +4,12 @@ body {
     width: 960px;
     justify-content: center;
 }
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
 .calcContainer {
     display: flex;
     flex-direction: column;
@@ -17,7 +23,9 @@ body {
 .display {
     display: flex;
     border: 1px solid black;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 48px;
     height: 100px;
     width: 350px;
 }
@@ -26,10 +34,4 @@ body {
     justify-content: center;
     height: 400px;
     width: 350px;
-}
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 32px;
 }
